@@ -1,6 +1,6 @@
 import os
 import datetime
 
-#date = d.date.today()
 date = datetime.date.today().strftime("%B %d %Y")
+# added comment also..
 print(f"date: {date}")
